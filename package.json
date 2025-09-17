@@ -1,5 +1,5 @@
 {
-  "name": "easy-notify",
+  "name": "easy-notify-kit",
   "version": "1.0.0",
   "description": "A very simple and easy React + Next.js notification provider (toasts, alerts, confirm) with bounce animations and progress bar",
   "main": "dist/index.jsx",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nazari06/easy-notify.git"
+    "url": "https://github.com/Nazari06/easy-notify-kit.git"
   },
   "author": "Mahmood Nazari",
   "license": "MIT",

@@ -1,4 +1,4 @@
-# easy-notify
+# easy-notify-kit
 
 Lightweight React / Next.js notification library with:
 - Toasts (icons, close button, progress bar)
@@ -8,15 +8,15 @@ Lightweight React / Next.js notification library with:
 
 Install
 ```bash
-npm install easy-notify lucide-react
+npm install easy-notify-kit lucide-react
 # or
-yarn add easy-notify lucide-react
+yarn add easy-notify-kit lucide-react
 ```
 
 Quick usage (Next.js App Router)
 ```tsx
 // app/layout.tsx
-import { NotifyProvider } from "easy-notify";
+import { NotifyProvider } from "easy-notify-kit";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 Consume in a client component
 ```tsx
 "use client";
-import { useNotify } from "easy-notify";
+import { useNotify } from "easy-notify-kit";
 
 export default function Page() {
   const { showToast, showAlert, showConfirm } = useNotify();
@@ -61,6 +61,6 @@ API
 Building & Publishing
 - Build with: `npm run build` (ensure tsup/typescript are dev deps)
 - Pack: `npm pack`
-- Test install in a project via `npm install /path/to/easy-notify-1.0.0.tgz`
+- Test install in a project via `npm install /path/to/easy-notify-kit-1.0.0.tgz`
 
 License: MIT
