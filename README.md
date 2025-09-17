@@ -10,7 +10,7 @@ Install
 ```bash
 npm install easy-notify-kit lucide-react
 # or
-yarn add easy-notify-kit lucide-react
+yarn add easy-notify lucide-react
 ```
 
 Quick usage (Next.js App Router)
