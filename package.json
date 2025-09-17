@@ -1,0 +1,40 @@
+{
+  "name": "easy-notify",
+  "version": "1.0.0",
+  "description": "A very simple and easy React + Next.js notification provider (toasts, alerts, confirm) with bounce animations and progress bar",
+  "main": "dist/index.jsx",
+  "module": "dist/index.jsx",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "nextjs",
+    "toast",
+    "notification",
+    "notify",
+    "dialog",
+    "toast-progress"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nazari06/easy-notify.git"
+  },
+  "author": "Mahmood Nazari",
+  "license": "MIT",
+   "scripts": {
+    "build": "tsup src/index.jsx --format cjs,esm"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "tailwindcss": ">=3.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.292.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}
