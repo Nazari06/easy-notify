@@ -1,4 +1,4 @@
-# easy-notify
+# easy-notify-kit
 
 Lightweight React / Next.js notification library with:
 - Toasts (icons, close button, progress bar)
