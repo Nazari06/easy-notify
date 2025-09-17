@@ -11,6 +11,8 @@ Install
 npm install easy-notify lucide-react
 # or
 yarn add easy-notify lucide-react
+#install tailwindcss
+npm install tailwindcss
 ```
 
 Quick usage (Next.js App Router)
